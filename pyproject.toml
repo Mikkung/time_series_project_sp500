@@ -1,0 +1,16 @@
+[project]
+name = "time-series-project-sp500"
+version = "0.1.0"
+description = "Exploratory time-series analysis of selected S&P 500 stocks with moving averages and correlations."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+]
+
+[tool.black]
+line-length = 100
